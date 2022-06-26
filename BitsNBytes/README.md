@@ -48,10 +48,39 @@ n bit = 2 \*\* N nums
 
 #Bitwise Operators
 
-`& = And
-| = Or
-~ = Not
-<< = Left Shift
+### Operations performed on bits
 
-> > == Right Shift
-> > ^ = XOR`
+& = And <br/>
+| = Or<br/>
+~ = Not<br/>
+<< = Left Shift<br/>
+'>>' == Right Shift<br/>
+^ = XOR
+
+# & Operator
+
+## (Both bits agree to carry; x=1,y=1,z=1, x=1,y=0,z=0,x=0,y=1,z=0)
+
+7 = 0111
+&
+4 = 0100
+
+---
+
+     0100     4 & 7 = 4
+
+# | Operator
+
+## (x=1,y=1,z=1/x=1,y=0,z=1/x=0,y=1,z=1)
+
+7 = 0111
+|
+4 = 0100
+
+---
+
+     0111   4 | 7 = 7
+
+# ~ Operator
+
+## (Not is unary; only requires 1 bit)
