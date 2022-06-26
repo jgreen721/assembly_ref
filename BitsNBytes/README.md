@@ -61,9 +61,9 @@ n bit = 2 \*\* N nums
 
 ## (Both bits agree to carry; x=1,y=1,z=1, x=1,y=0,z=0,x=0,y=1,z=0)
 
-7 = 0111
-&
-4 = 0100
+7 = 0111 <br/>
+& <br/>
+4 = 0100 <br/>
 
 ---
 
@@ -73,9 +73,9 @@ n bit = 2 \*\* N nums
 
 ## (x=1,y=1,z=1/x=1,y=0,z=1/x=0,y=1,z=1)
 
-7 = 0111
-|
-4 = 0100
+7 = 0111 <br/>
+| <br/>
+4 = 0100 <br/>
 
 ---
 
@@ -84,3 +84,23 @@ n bit = 2 \*\* N nums
 # ~ Operator
 
 ## (Not is unary; only requires 1 bit)
+
+~5 = -6
+~-6 = 5
+
+~ -n = n-1
+~ n = -n-1
+
+On bits, it seems?? to give the inverse, or compliment so
+~01011 - > 10100
+
+& - bitwise AND operator
+&& logical AND operator <- the one Im used to using (logical || as well)
+
+`x=1,y=2` (x= 00000001, y = 00000010)
+
+`if(x&y)` 00000001 & 00000010 = 00000000 = 0 (wont fire condition)
+`print("You have a value > 0")`
+`if(x&&y)` if x(00000001), if y(00000010) (both are > 0,)
+TRUE && TRUE = TRUE = 1
+`print("the second condition fired, you have a value > 0.")`
