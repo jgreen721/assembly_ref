@@ -99,8 +99,8 @@ On bits, it seems?? to give the inverse, or compliment so
 
 `x=1,y=2` (x= 00000001, y = 00000010)
 
-`if(x&y)` 00000001 & 00000010 = 00000000 = 0 (wont fire condition)
-`print("You have a value > 0")`
+`if(x&y)` 00000001 & 00000010 = 00000000 = 0 (wont fire condition)<br/>
+`print("You have a value > 0")` <br/>
 `if(x&&y)` if x(00000001), if y(00000010) (both are > 0,)
-TRUE && TRUE = TRUE = 1
-`print("the second condition fired, you have a value > 0.")`
+TRUE && TRUE = TRUE = 1 <br/>
+`print("the second condition fired, you have a value > 0.")` <br/>

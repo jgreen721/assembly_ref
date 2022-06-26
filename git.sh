@@ -1,7 +1,6 @@
 
-var message=$1
 
-echo $message
+echo 'pushing to git'
 
 git add -A 
 git commit -m push
